@@ -6,7 +6,7 @@ Dentro del workspace en `src`:
 1. Obtener `rs_driver` mediante `submodule`:
 
 ```sh
-git clone https://github.com/inakilorentekivnon/rslidar_sdk/tree/ros2
+git clone -b ros2 https://github.com/inakilorentekivnon/rslidar_sdk 
 cd rslidar_sdk
 git submodule init
 git submodule update
