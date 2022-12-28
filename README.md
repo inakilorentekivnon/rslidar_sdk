@@ -47,3 +47,11 @@ git clone -b release https://github.com/RoboSense-LiDAR/rslidar_msg
 ```sh
 colcon build --symlink-install
 ```
+
+5. Ejecutar `SDK`:
+
+```sh
+ros2 launch rslidar_sdk start.launch.py
+```
+
+![startROBOSENSE](img/startROBOSENSE.png)
