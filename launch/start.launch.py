@@ -10,3 +10,6 @@ def generate_launch_description():
         Node(namespace='rslidar_sdk', package='rslidar_sdk', executable='rslidar_sdk_node', output='screen'),
         Node(namespace='rviz2', package='rviz2', executable='rviz2', arguments=['-d',rviz_config])
     ])
+    
+    
+ 
