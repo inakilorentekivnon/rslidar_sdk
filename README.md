@@ -28,5 +28,10 @@ sudo apt-get install -y  libpcap-dev
 3. Obtener `rslidar_msg` (rama dev_opt):
 
 ```sh
-https://github.com/RoboSense-LiDAR/rslidar_msg/tree/dev_opt
-``
+git clone https://github.com/RoboSense-LiDAR/rslidar_msg/tree/dev_opt
+```
+4. Compilar:
+
+```sh
+colcon build --symlink-install
+```
